@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart</title>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="d-flex w-50" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search for Products, Brands an more" aria-label="Search">
+              </form>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active " aria-current="page" href="login.html">
+                    <i class="fa-regular fa-user"></i> Login
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i> Cart
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i> Become a Seller
+                  </a>
+                </li>
+                
+                
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
+    <!-- category start -->
+     <div class="row mt-3">
+      <div class="col-sm-12">
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-1">
+            <img src="images/categories/asset 17.png" alt="">
+            <h6>Grocery</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 18.png" alt="">
+            <h6>Mobile</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 19.png" alt="">
+            <h6>Fashion</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 20.png" alt="">
+            <h6>Electronics</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 21.jpeg" alt="">
+            <h6>Furnitures</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 22.jpeg" alt="">
+            <h6>Appliances</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 23.png" alt="">
+            <h6>Flight & Booking</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 24.png" alt="">
+            <h6>Beauty, Toys & More</h6>
+          </div>
+          <div class="col-sm-1">
+            <img src="images/categories/asset 25.png" alt="">
+            <h6>Two Wheelers</h6>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- category end -->
+
+     <!-- slider start -->
+      <div class="row mt-4">
+        <div class="col-sm-12">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slider/s1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/s2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slider/s1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+     <!-- slider end -->
+
+     <!-- best of electronics start-->
+      <div class="row mt-4">
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Best of Electronics</h2>
+            </div>
+            <div class="col-sm-6 text-end">
+              <button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col product">
+              <div class="card p-2 pb-0">
+                <img src="images/electronics/monitor.jpeg" height="180vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Monitor <br> <b>From ₹8733</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col product">
+              <div class="card p-2 pb-0">
+                <img src="images/electronics/projector.jpeg" height="180vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Monitor <br> <b>From ₹8733</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col product">
+              <div class="card p-2 pb-0">
+                <img src="images/electronics/watch2.jpeg" height="180vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Monitor <br> <b>From ₹8733</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col product">
+              <div class="card p-2 pb-0">
+                <img src="images/electronics/watch.jpeg" height="180vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Monitor <br> <b>From ₹8733</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col product">
+              <div class="card p-2 pb-0">
+                <img src="images/electronics/oneplus-buds.jpeg" height="180vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Monitor <br> <b>From ₹8733</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/airindia.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+     <!-- best of electronics end-->
+     <!--Beauty,food and toys start-->
+     <div class="row mt-5">
+      <div class="col-sm-12 pb-3">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Beauty, Toys,Food and More</h3>
+          </div>
+          <div class="col-sm-6 text-end"><button class="btn btn-sm btn-primary rounded-circle">
+            <i class="fa-solid fa-greater-than"></i>
+          </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/microphone.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">microphone<br><b>upto 70% off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/push-up-bar.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Zym<br><b>upto 65% off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/puzzle.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">puzzle<br><b>upto 75% off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/toy.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Toys<br><b>upto 80% off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/coffee_powder.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">premium coffee<br><b>upto 70% off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2 product">
+          <img src="images/beauty_toys/yoga-mat.jpeg" height="180vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Gymnast<br><b>upto 60% off</b></p>
+          </div>
+        </div>
+      </div>
+     </div>  
+     <!--Beauty,food and toys end-->
+     <!--text row start-->
+       <div class="row mt-5 py-5 myrow">
+        <div class="col-sm-12">
+          <h6>Top Stories:Brand Directory</h6>
+          <p>MOST SEARCHED FOR ON FLIPKART: <a href="#" class="text-decoration-none text-secondry">iphone 16 | iphone 16 puus | iphone 16 Pro |iphone 16 Pro Max| Whoop Band | Oppo Find X8 | Flipkart Minutes | Flipkart Exchange | Flipkart Reset | 
+            | Nothing Phone 2a Plus | Sarees | CMF by Nothing Phone 1 |Pocket Bazaaz| Xiaomi 14 CIVI| Infinix Note 40 Pro 5G | iphone 15 | Infinix Note 40 Pro 5G | iphone 15 Plus 
+            
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+          </a>
+        
+          <p>MOST SEARCHED FOR ON FLIPKART</p> 
+          <a href="#" class="text-decoration-none text-secondry">iphone 16 | iphone 16 puus | iphone 16 pro max |iphone 16 | iphone 16 puus | iphone 16 pro max
+            |iphone 16 | iphone 16 puus | iphone 16 pro max |iphone 16 | iphone 16 puus | iphone 16 pro max |iphone 16 | iphone 16 puus | iphone 16 pro max
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+            iphone 16 | iphone 16 puus | iphone 16 pro max | iphone 16 | iphone 16 puus | iphone 16 pro max
+          </a>
+        </div>
+       </div>
+     <!--text row end-->
+     <!--footer start-->
+     <div class="row bg-dark p-5 text-light">
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-3">
+            <h6  class="text-secondry">ABOUT</h6>
+            <p class="myfont">
+            <a href="#" class="text-decoration-none text-light">contact Us</a>
+            <br>
+            <a href="#" class="text-decoration-none text-light">about Us</a>
+            <br>
+            <a href="#" class="text-decoration-none text-light">careers</a>
+            <br>
+            <a href="#" class="text-decoration-none text-light">Flipkart Stories</a>
+            <br>
+            <a href="#" class="text-decoration-none text-light">Press</a>
+            <br>
+            <a href="#" class="text-decoration-none text-light">Corporate Infomation</a>
+          </p>
+          </div>
+          <div class="col-sm-3">
+            <h6 class="text-secondry">GROUP COMPANIES</h6>
+            <p class="myfont">
+              <a href="#" class="text-decoration-none text-light">Myntra</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Cleartrip</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Shopsy</a> 
+            </p>
+          </div>
+          <div class="col-sm-3">
+            <h6 class="text-secondry">HELP</h6>
+            <p class="myfont">
+              <a href="#" class="text-decoration-none text-light">Payments</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Shipping</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Cancellation &</a>
+              <br> 
+              <a href="#" class="text-decoration-none text-light">Returns</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">FAQ</a> 
+            </p>
+          </div>
+          <div class="col-sm-3"> 
+            <h6 class="text-secondry">CONSUMER POLICY</h6>
+            <p class="myfont">
+              <a href="#" class="text-decoration-none text-light">Cancellation &</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Returns</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Terms Of Use</a>
+              <br> 
+              <a href="#" class="text-decoration-none text-light">Security</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Privacy</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">Sitemap</a>
+              <br> 
+              <a href="#" class="text-decoration-none text-light">Grievance Redressal</a>
+              <br>
+              <a href="#" class="text-decoration-none text-light">EPR Compliation</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5 border-start">
+        <div class="row">
+          <div class="col-sm-6">
+            <h6 class="text-secondry">MAIL US:</h6>
+            <p class="myfont">
+              Flipkart Internet privet limited
+              Buildings Alyssa, Begonia&
+              Clove Embassy Tech Village,
+              Outer Ring Road, Devarabeesanahalli Village,
+              Bengaluru, 560103,
+              Karnataka, india
+            </p>
+            <h6 class="text-secondry">social</h6>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="col-sm-6">
+            <h6 class="text-secondry">REGISTERED OFFICE ADDRESS</h6>
+            <p class="myfont">
+              Flipkart Internet privet limited
+              Buildings Alyssa, Begonia&
+              Clove Embassy Tech Village,
+              Outer Ring Road, Devarabeesanahalli Village,
+              Bengaluru, 560103,
+              Karnataka, india
+              CIN:U51109KA2012PTC066107
+              <br>
+              Telephone:<a href="#" class="text-decoration-none text-light ">044-45614700 /044-67415800</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col">
+                <span class="myfont"><i class="fa-solid fa-store text-warning"></i>Become a Seller</span>
+              </div>
+              <div class="col">
+                <span class="myfont"><i class="fa-solid fa-rectangle-ad text-warning"></i>Advertise</span>
+              </div>
+              <div class="col">
+                <span class="myfont"><i class="fa-solid fa-hand-holding-dollar text-warning"></i>Gift-card</span>
+              </div>
+              <div class="col">
+                <span class="myfont"><i class="fa-brands fa-hire-a-helper text-warning"></i>Help-center</span>
+              </div>
+              <div class="col">
+                <span class="myfont"><i class="fa-solid fa-copyright text-warning"></i>2007-2024 Flipkart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/payment-method-c454fb.svg" alt="">
+          </div>
+        </div>
+      </div>
+     </div>
+     <!--footer end-->
+  </div>
+</body>
+</html>
